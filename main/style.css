@@ -1,0 +1,54 @@
+body{
+    margin: 0px;
+    padding: 0px;
+    font-family: Arial, Helvetica, sans-serif;
+    text-align: center;
+    background-color: #f8f9fa;
+}
+
+.box {
+    width: 250px; 
+    height: 250px; 
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: white;
+    border: 2px solid #999;
+    border-radius: 10px;
+    transition: 0.3s ease-in-out;
+    cursor: pointer;
+}
+
+.box:hover {
+    background: #f1f1f1;
+}
+
+#dropzone {
+    border: 2px dashed #999;
+}
+
+.row {
+    display: flex;
+    justify-content: center;
+    gap: 20px; /* Abstand zwischen den beiden Boxen */
+}
+
+/* Alles hier drunter dient um bootstrap zu modifiezieren */
+
+.input-group {
+    display: flex;
+    flex-wrap: nowrap; /* Verhindert Umbrüche */
+    border: 2px solid black;
+    border-radius: 5px;
+    overflow: hidden; /* Schneidet alles außerhalb des Borders ab */
+    width: fit-content; /* scneidet die seiten kurz */
+    height: 200px;
+    margin: auto; /* Zentriert es */
+}
+
+.input-group .form-control,
+.input-group .input-group-text {
+    border: none; /* Entfernt die Standard-Borders von Bootstrap */
+    outline: none; /* Verhindert blaue Umrandungen */
+}
