@@ -15,6 +15,6 @@ Ich habe mich für diese Sprachen entschieden, da ich am meisten Erfahrung in di
 - **Bootstrap**  
 Ich habe mich hierfür für Bootstrap entschieden, weil es die bekannteste CSS-Bibliothek ist und man damit sehr einfach Webseiten gestalten kann. Ich wollte zuerst Tailwind verwenden, doch ich fand, dass ich es lieber simpel halten sollte.
 
-#### Notiz
 
+#### Notiz
 Ich habe mein Bestes gegeben, den Code lesbar zu halten, viele Kommentare zu nutzen und ihn so zu schreiben, als ob mehrere Personen daran arbeiten.
