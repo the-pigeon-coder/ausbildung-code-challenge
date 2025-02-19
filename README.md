@@ -1,17 +1,17 @@
 ### GANZ WICHTIG
-## Bitte alle dokumente anschauen, vollständige dokumentierung unter dem ordner "Dokumente", und den [Google Doc (https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?tab=t.0)]
+## Bitte alle Dokumente anschauen, vollständige Dokumentation unter dem Ordner "Dokumente", und den [Google Doc](https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?tab=t.0)
 
 # Probeaufgabe 1 - CSV Verarbeitung
 
-Eine Anwendung zum verarbeiten von .csv datein.
+Eine Anwendung zum Verarbeiten von .csv-Dateien.
 
 ## 1. Zielsetzung
 
-Bitte die vollständige dokumentierung, bzw [SDD (https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?tab=t.0)] lesen.
+Bitte die vollständige Dokumentation, bzw. [SDD](https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?tab=t.0) lesen.
 
 ## 2. Design
 
-habe das Design ziemlich simple gehalten, und bin für einen lok gegangen, inspiriert von converter webiten, wo man z.b. png dateien zu jpg dateien umwandeln kann.
+Ich habe das Design ziemlich simpel gehalten und mich für einen lokalen Ansatz entschieden, inspiriert von Converter-Webseiten, auf denen man z.B. PNG-Dateien in JPG-Dateien umwandeln kann.
 
 ## 3. Implementierung
 
@@ -19,15 +19,15 @@ Ich habe mich für die folgenden Sprachen entschieden:
 
 - HTML
 - CSS
-- Javascript
+- JavaScript
 
-Ich habe mich für diese sprachen entschieden, da ich am meisten erfahrung in diesen sprachen habe, und confident war, das
+Ich habe mich für diese Sprachen entschieden, da ich am meisten Erfahrung in diesen Sprachen habe und sicher war, dass ich sie gut einsetzen kann.
 
 ### 3.1 Einsatz von 3rd Party Libraries
 
--Bootstrap
-ich hab mich hierfür für bootstrap entschieden, weil es die bekannteste CSS library ist, und man damit sehr einfach websiten gestalten kann, ich wollte zuerst Tailwind verwenden, doch ich fand ich sollte es leiber simple halten.
+- **Bootstrap**  
+Ich habe mich hierfür für Bootstrap entschieden, weil es die bekannteste CSS-Bibliothek ist und man damit sehr einfach Webseiten gestalten kann. Ich wollte zuerst Tailwind verwenden, doch ich fand, dass ich es lieber simpel halten sollte.
 
 ### 3.2 Wartbarkeit
 
-Ich habemein bestes gegeben den code lesbar zu halten, und viele kommentare zu nutzen, und es so geschrieben als ob mehrere personen dran arbeiten.
+Ich habe mein Bestes gegeben, den Code lesbar zu halten, viele Kommentare zu nutzen und ihn so zu schreiben, als ob mehrere Personen daran arbeiten.
