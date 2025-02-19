@@ -1,5 +1,5 @@
 ### GANZ WICHTIG
-## Bitte alle Dokumente anschauen, vollständige Dokumentation unter dem Ordner "Dokumente", und den [Google Doc](https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?tab=t.0)
+## Bitte alle Dokumente anschauen, vollständige Dokumentation unter dem Ordner "Dokumente", und den [Google Doc](https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?usp=sharing)
 
 # Probeaufgabe 1 - CSV Verarbeitung
 
@@ -7,7 +7,7 @@ Eine Anwendung zum Verarbeiten von .csv-Dateien.
 
 ## 1. Zielsetzung
 
-Bitte die vollständige Dokumentation, bzw. [SDD](https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?tab=t.0) lesen.
+Bitte die vollständige Dokumentation, bzw. [SDD]https://docs.google.com/document/d/1ZoKsAw86lu_qd0X3Fmj696DKu46dlcC4cf6zPsCPCCU/edit?usp=sharing) lesen.
 
 ## 2. Design
 
