@@ -2,42 +2,42 @@
 
 ## Used technologies / Frameworks
 
-I use the following technologies / frameworks in my project:
+Ich habe folgende technologien/Frameworks in meinem Projekt benutzt:
 
-- JavaScript / jQuery
-- PHP / Symfony
-- ...
+- HTML & CSS
+- Javascript
+-Ich habe mich für HTML und CSS entschieden, weil es die 2 sprachen sind mit dem ich sehr confident bin, und auch sehr einfach eine UI designen konnte
+-Ich habe mich für Javascript entschieden weil es die einzige scripting sprache ist die ich halbwegs gut kann, und sie sehr gut kompatibel ist mir HTML & CSS
+-Ich habe die DOM (Document Object Model) verwendet, um die HTML-Elemente dynamisch zu verändern. Dadurch konnte ich den Upload- und Bearbeitungsbereich steuern, die CSV-Dateien laden und die Benutzeroberfläche je nach Status anpassen.
+## Benutze 3rd Party Libraries
 
-I chose jQuery because ...
-
-## Used 3rd Party Libraries
-
-I use the following 3rd party libraries in my project: (if none, remove the table and explain why)
+Ich benutze die folgenden 3rd Party Libraries in meinem Projekt:
 
 Name | Reason
 --- | ---
-[moment.js](https://momentjs.com/) | For calculating dates and converting formats.
-[Bootstrap](https://getbootstrap.com/) | Simple RWD framework for designing the front end.
+[PapaParse](https://github.com/mholt/PapaParse) um die CSV parsen zu können
+[Bootstrap](https://getbootstrap.com/) | Sehr einfaches und simples Framework um frontend besser aussehen zu lassen
 
 ## Installation / Run
 
-Describe how we can check your project locally.
+Um das Projekt lokal auszuführen, sind folgende Schritte notwendig:
 
-For example:
+1. Lade das Repository herunter:
+   ```console
+   git clone https://github.com/the-pigeon-coder/ausbildung-code-challenge
+   ```
+2. Wechsle in das Projektverzeichnis:
+   ```console
+   cd ausbildung-code-challenge
+   ```
+3. Falls du einen lokalen Server benötigst, kannst du beispielsweise den Live Server von VS Code verwenden oder Python als lokalen Server starten:
+   - Mit Python:
+     ```console
+     python -m http.server 8000
+     ```
+   - Mit VS Code Live Server: Installiere die Live Server Extension und starte die `web.html` Datei darüber.
 
----
+Das Projekt kann nun im Browser unter `http://localhost:8000` aufgerufen werden.
 
-The following components must be installed locally:
-
-- [nodejs](https://nodejs.org/en/) v13.2.0
-- [.NET Core](https://dotnet.microsoft.com/download) v3.1
-
-To run the project locally, enter the following in the command line / bash:
-
-```console
-$ git clone <linktorepository>
-$ cd <repositoryname>
-$ npm install
-$ npm run start
-```
----
+### Alternative (Einfachste Methode)
+Falls du keinen lokalen Server nutzen möchtest, kannst du einfach die HTML-, CSS- und JavaScript-Dateien herunterladen, in einen Ordner legen und die `web.html` Datei direkt im Browser öffnen. Dadurch wird die Anwendung ohne zusätzliche Konfiguration ausgeführt.

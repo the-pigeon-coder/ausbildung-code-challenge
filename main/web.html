@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>CSV-Editor.com</title>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/PapaParse/5.3.2/papaparse.min.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.3/dist/js/bootstrap.bundle.min.js"
     integrity="sha384-YvpcrYf0tY3lHB60NNkmXc5s9fDVZLESaAA55NDzOxhy9GkcIdslK1eN7N6jIeHz" 
     crossorigin="anonymous"></script> <!--verbindung zu bootstrap-->
@@ -11,7 +12,13 @@
     <script src="main.js"></script> <!--verbindung zur unserer js datei-->
 </head>
 <body>
-
+    
+    <div id="buttonContainer" class="fixed-buttons">
+        <button id="saveCsvButton" class="btn btn-primary">Speichern als CSV</button>
+        <button id="savePdfButton" class="btn btn-primary">Speichern als PDF</button>
+        <button id="selectAnotherFile" class="btn btn-secondary">Andere Datei auswählen</button>
+    </div>
+    
     <div class="container text-center mt-5">
         <h1 class="fw-bold">CSV EDITOR</h1>
 
